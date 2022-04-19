@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap'); 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #585c68;
+	font-size: 14px;
+	line-height: 22px;
+	color: white;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi-bold {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.resume {
+	width: 800px;
+	height: auto;
+	display: flex;
+	margin: 50px auto;
+}
+
+.resume .resume_gauche {
+	width: 290px;
+	background: #0bb5f4;
+}
+
+.resume .resume_gauche .resume_profil {
+	width: 100%;
+	height: 365px;
+}
+
+.resume .resume_gauche .resume_profil img {
+	height: 100%;
+	width: 100%;
+}
+
+.resume .resume_gauche .resume_contenu {
+	padding: 0 25px;
+}
+
+.resume .titre {
+	margin-bottom: 20px;
+}
+
+.resume .resume_gauche .bold {
+	color: #fff;
+}
+
+.resume .resume_gauche .regular {
+	color: #b1eaff;
+}
+
+.resume .resume_objet {
+	padding: 25px 0;
+	border-bottom: 2px solid #b1eaff;
+}
+
+.resume .resume_objet a {
+	color: white; 
+}
+
+.resume .resume_gauche .resume_objet:last-child,
+.resume .resume_droite .resume_objet:last-child {
+	border-bottom: 0px;
+}
+
+.resume .resume_gauche ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px; 
+}
+
+
+.resume .resume_gauche ul li:last-child {
+	margin-bottom: 0;
+}
+
+
+.resume .resume_gauche ul li .icon {	
+	width: 35px;
+	height: 35px;
+	background: #fff;
+	color: #0bb5f4;
+	border-radius: 50%;
+	margin-right: 15px;
+	font-size: 16px;
+	position: relative;
+}
+
+.resume .icon i,
+.resume .resume_droite .resume_passions ul li i {
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.resume .resume_gauche ul li .data {
+	font-size: 10px;
+	color: #b1eaff;
+}
+
+.resume .resume_gauche .resume_competences ul li {
+	color: #b1eaff;
+	justify-content: space-between;
+}
+
+.resume .resume_gauche .resume_competences ul li .nom_competence {
+	width: 25%;
+}
+
+.resume .resume_gauche .resume_competences ul li .niveau_competence {
+	width: 60%;
+	margin: 0 8px;
+	height: 5px;
+	background: #009fd9;
+	position: relative;
+}
+
+.resume .resume_gauche .resume_competences ul li .indice_competence {
+	width: 15%;
+}
+
+.resume .resume_gauche .resume_competences ul li .niveau_competence span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #fff;
+}
+
+.resume .resume_droite {
+	width: 520px;
+	background: #fff;
+	padding: 25px;
+}
+
+.resume .resume_droite p {
+	color: #3A3533;
+}
+
+.resume .resume_droite .bold {
+	color: #0bb5f4;
+}
+
+.resume .resume_droite .resume_travail ul,
+.resume .resume_droite .resume_formation ul {
+	padding-left: 40px;
+	overflow: hidden;
+}
+
+.resume .resume_droite ul li {
+	position: relative;
+}
+
+.resume .resume_droite ul li .date {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: #3A3533
+}
+
+.resume .resume_droite ul li .info {
+	margin-bottom: 20px;
+}
+
+.resume .resume_droite ul li:last-child .info {
+	margin-bottom: 0;
+}
+
+.resume .resume_droite .resume_travail ul li:before,
+.resume .resume_droite .resume_formation ul li:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #0bb5f4;
+}
+
+.resume .resume_droite .resume_travail ul li:after,
+.resume .resume_droite .resume_formation ul li:after {
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -21px;
+	width: 2px;
+	height: 61px;
+	background: #0bb5f4;
+}
+
+.resume .resume_droite .resume_passions ul {
+	display: flex; 
+	justify-content: space-between;
+}
+
+.resume .resume_droite .resume_passions ul li {
+	width: 65px; 
+	height: 65px;
+	border: 2px solid #0bb5f4;
+	border-radius: 50%;
+	position: relative;
+	color: #0bb5f4;
+	margin-top: 15px;
+}
+
+
+.resume .resume_droite .resume_passions ul li i {
+	font-size: 30px; 
+}
+
+
+

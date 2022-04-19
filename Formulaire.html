@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="formulaire.css">
+		<title>Formulaire</title>
+	</head>
+
+	<body>
+
+		<div class="resume">
+		<table border="0">
+			<tr>
+				<td>Entrer votre Nom</td>
+				<td><input type="text" name="nom" size="25" maxlength="20"></td>
+			</tr>
+			<tr>
+				<td>Entrer votre Prénom</td>
+				<td><input type="text" name="prénom" size="25" maxlength="20"></td>
+			</tr>
+			<tr>
+				<td>Quel est votre OS ?</td>
+				<td><select>
+					<option>Windows</option>
+					<option>MAC OS</option>
+					<option>Linux</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Quel est votre jeu préféré ?</td>
+				<td><select multiple size="5">
+					<option>CS-GO</option>
+					<option>Fortnite</option>
+					<option>League of Legends</option>
+					<option>Rocket League</option>
+					<option>Dead by Daylight</option>
+					<option>Among Us</option>
+					<option>ARK</option>
+					<option>Mario Kart</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Quels sont vos sports préférés ?<td>
+				<td><input type="checkbox" class="case" name="case1">Football<br>
+				    <input type="checkbox" class="cases" name="case2">Basketball<br>
+				    <input type="checkbox" class="cases" name="case3">Tennis<br>
+				    <input type="checkbox" class="cases" name="case4">Handball<br>
+				    <input type="checkbox" class="cases" name="case4">Natation<br>
+				</td>
+			</tr>
+			<tr>
+				<td>Êtes-vous majeur ?</td>
+				<td>
+				    <input type="radio" name="choix" value="true">Oui</input>
+				    <input type="radio" name="choix" value="false">Non</input> 
+				</td>
+			</tr>
+			 </div>
+			<tr>
+				<td>Commentaires<td>
+				<td><textarea cols="40" rows="10" class="carré"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="boutonEnv" value="Envoyer"></td>
+				<td><input type="reset" name="boutonAnn" value="Annuler"></td>
+			</tr>
+		</table>
+		</div>
+	</body>
+
+</html>

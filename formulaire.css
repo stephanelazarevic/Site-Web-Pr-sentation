@@ -1,0 +1,33 @@
+body {
+	background-color: #585c68;
+	margin-top: 5%;
+}
+
+body .resume {
+	padding: 55px 30px;
+	width: 600px;
+	height: auto;
+	display: flex;
+	margin: 30px auto;
+	background-color: #fff;
+}
+
+body p {
+	margin-left: 170px; 
+}
+
+body td {
+	padding: 10px 10px;
+}
+
+body .case {
+	margin-left: -200px;
+}
+
+body .cases {
+	margin-left: -200px;
+}
+
+body .carré {
+	margin-left: -220px;
+}
